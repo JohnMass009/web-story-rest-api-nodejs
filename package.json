@@ -1,0 +1,54 @@
+{
+  "name": "web-story",
+  "version": "1.0.0",
+  "description": "",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "nodemon src/server.js",
+    "debug": "node src/server.js",
+    "test": "jest --detectOpenHandles --coverage --verbose --forceExit"
+  },
+  "repository": {
+    "type": "git",
+    "url": ""
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "js",
+    "rest",
+    "api",
+    "koa"
+  ],
+  "author": "Ivan Masenko <masenko900@gmail.com>",
+  "license": "ISC",
+  "dependencies": {
+    "@hapi/joi": "^17.1.1",
+    "@koa/cors": "^3.0.0",
+    "bcrypt": "^4.0.1",
+    "cookie-parser": "^1.4.5",
+    "http-status": "^1.4.2",
+    "jsonwebtoken": "^8.5.1",
+    "koa": "^2.11.0",
+    "koa-bodyparser": "^4.3.0",
+    "koa-helmet": "^5.2.0",
+    "koa-logger": "^3.2.1",
+    "koa-router": "^8.0.8",
+    "lodash": "^4.17.15",
+    "moment": "^2.25.3",
+    "mongoose": "^5.9.5",
+    "nodemailer": "^6.4.8",
+    "winston": "^3.2.1",
+    "winston-daily-rotate-file": "^4.4.2"
+  },
+  "devDependencies": {
+    "colors": "^1.4.0",
+    "dotenv": "^8.2.0",
+    "faker": "^4.1.0",
+    "jest": "^26.0.1",
+    "node-mocks-http": "^1.8.1",
+    "nodemon": "^2.0.2",
+    "supertest": "^4.0.2"
+  }
+}
