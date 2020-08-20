@@ -26,7 +26,7 @@
   "dependencies": {
     "@hapi/joi": "^17.1.1",
     "@koa/cors": "^3.0.0",
-    "bcrypt": "^4.0.1",
+    "bcrypt": "^5.0.0",
     "cookie-parser": "^1.4.5",
     "http-status": "^1.4.2",
     "jsonwebtoken": "^8.5.1",
